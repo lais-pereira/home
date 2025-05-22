@@ -1,0 +1,10 @@
+@MinhaHomePageAPI_HostAddress = http://localhost:5200
+
+POST {{MinhaHomePageAPI_HostAddress}}/add-visit/
+
+###
+
+GET {{MinhaHomePageAPI_HostAddress}}/check-visits/
+Accept: application/json
+
+###
